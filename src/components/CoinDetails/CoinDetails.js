@@ -13,7 +13,7 @@ const CoinDetails = () => {
     return (
         <div className="px-4 h-[90vh] pt-20 pb-24 mx-auto max-w-7xl md:px-2">
             <div className="h-full grid grid-cols-1 md:grid-cols-2 justify-items-center gap-4 content-center">
-                <div>
+                <div className="flex flex-col justify-center items-center">
                     <h1 className="text-3xl">General Info:</h1>
                     <hr />
                     <h1>Coin name: {coin.name}</h1>

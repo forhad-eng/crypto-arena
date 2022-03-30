@@ -11,7 +11,7 @@ const Contact = () => {
 
                 <div className="flex justify-center items-center">
                     <button className="py-1 px-3 text-white mt-3 mx-1 bg-cyan-600 w-auto sm:mb-0">
-                        <Link to="/contact/bd-address">BD Address</Link>
+                        <Link to="bd-address">BD Address</Link>
                     </button>
                     <button className="py-1 px-3 text-white mt-3 mx-1 bg-cyan-600 w-auto sm:mb-0">
                         <Link to="us-address">US Address</Link>
