@@ -13,10 +13,10 @@ const Coins = () => {
             .then(data => setCoins(data))
     }, [])
     return (
-        <div>
-            <h1 className="text-center text-2xl font-bold mt-14">Available Crypto Currencies</h1>
+        <div className="px-4 pt-20 pb-24 mx-auto max-w-7xl">
+            <h1 className="text-center text-2xl font-bold">Available Crypto Currencies</h1>
             <p className="text-center">Total coins {coins.length}</p>
-            <div className="grid md:grid-cols-4 gap-y-5 gap-x-14 px-28 py-10">
+            <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-y-5 gap-x-14 px-14 py-10">
                 {coins.map((coin, index) => (
                     <CoinCard key={index} coin={coin}></CoinCard>
                 ))}
